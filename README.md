@@ -4,4 +4,9 @@
 
 The learning capability of the simplest autoencoder is explored in this work. We see if the self-supervised autoencoder can accurately learn to reconstruct the MNIST digits. 
 
-![]
+![AutoEncoder1]()
+
+### Useful parameters to consider tuning in this simple autoencoder 
+- Model Architecture: In this case we pick Multi-Layer Perceptrons of size [784, 128, 32 (latent representation size)] for the encoder and symmetrically for decoder. 
+- Learning rate scheduler : REDUCELRONPLATEAU with default factor and patience; 
+- Optimizer : Adaptive momentum with default betas and LR of 0.001

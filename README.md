@@ -10,3 +10,10 @@ The learning capability of the simplest autoencoder is explored in this work. We
 - Model Architecture: In this case we pick Multi-Layer Perceptrons of size [784, 128, 32 (latent representation size)] for the encoder and symmetrically for decoder. 
 - Learning rate scheduler : REDUCELRONPLATEAU with default factor and patience; 
 - Optimizer : Adaptive momentum with default betas and LR of 0.001
+
+## Reconstruction results 
+- Original 
+![AutoEncoder2](images/original.jpg)
+
+-Reconstructed 
+![AutoEncoder3](images/reconstructed.jpg)

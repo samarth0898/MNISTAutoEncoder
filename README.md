@@ -13,8 +13,8 @@ The learning capability of the simplest autoencoder is explored in this work. We
 - Codeword represenation size 
 - misc: epoch, regulariztion etc. 
 ## Reconstruction results 
-- Original 
+### Original 
 ![AutoEncoder2](images/original.png)
 
--Reconstructed 
+### Reconstructed 
 ![AutoEncoder3](images/reconstructed.png)

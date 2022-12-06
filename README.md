@@ -1,4 +1,4 @@
-## Samarth Ganesh Thopaiah ~ November 2022
+
 
 # A Simple AutoEncoder for images in the MNIST DATASET 
 
